@@ -14,7 +14,13 @@ The data captures customer purchasing behaviour over time and allows for analysi
 - Microsoft Excel
 - GitHub
 ## Data Cleaning Steps
+The dataset required several cleaning steps before analysis to ensure accuracy and reliability of insights.
 
+- Removed cancelled transactions identified by invoice numbers starting with the letter "C".
+- Removed records with negative or zero quantities and unit prices, as these represent returns or invalid transactions.
+- Removed rows with missing customer IDs to enable meaningful customer-level analysis.
+- Created a revenue field by multiplying quantity and unit price.
+- Extracted invoice month from the invoice date to support time-based analysis.
 ## Exploratory Data Analysis
 
 ## Key Insights
