@@ -37,3 +37,9 @@ Geographical analysis revealed that revenue was concentrated in a few key countr
 - A limited number of high-value customers contributed significantly to overall revenue.
 
 ## Conclusion
+This exploratory data analysis provided valuable insights into sales performance, customer behaviour, and product contribution within an online retail business. By cleaning and analysing the data, key revenue patterns, high-performing products, core markets, and high-value customers were identified.
+
+The findings demonstrate how structured data analysis can support informed business decisions in areas such as inventory planning, customer retention, and sales strategy.
+
+## Next Steps
+Future analysis could include deeper customer segmentation, analysis of repeat purchasing behaviour, and profitability analysis by product category. The dataset could also be analysed using SQL or Python for scalability, and visual dashboards could be created using Power BI to support ongoing monitoring and reporting.
