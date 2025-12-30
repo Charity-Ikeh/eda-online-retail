@@ -13,6 +13,7 @@ The data captures customer purchasing behaviour over time and allows for analysi
 ## Tools Used
 - Microsoft Excel
 - GitHub
+  
 ## Data Cleaning Steps
 The dataset required several cleaning steps before analysis to ensure accuracy and reliability of insights.
 
@@ -21,8 +22,18 @@ The dataset required several cleaning steps before analysis to ensure accuracy a
 - Removed rows with missing customer IDs to enable meaningful customer-level analysis.
 - Created a revenue field by multiplying quantity and unit price.
 - Extracted invoice month from the invoice date to support time-based analysis.
+  
 ## Exploratory Data Analysis
+Exploratory Data Analysis was conducted using pivot tables to identify patterns and trends within the online retail data.
+
+Monthly revenue analysis revealed fluctuations in sales performance, highlighting periods of higher customer activity and potential seasonality. Product-level analysis showed that a small number of products contributed a significant share of total revenue, indicating opportunities for focused inventory and marketing strategies.
+
+Geographical analysis revealed that revenue was concentrated in a few key countries, while customer-level analysis showed that a small group of customers accounted for a large proportion of overall revenue. These findings highlight the importance of customer retention and targeted sales strategies.
 
 ## Key Insights
+- Revenue showed noticeable variation across different months, suggesting seasonal purchasing behaviour.
+- A small number of products generated the majority of total revenue.
+- Revenue was heavily concentrated in a few countries, indicating core markets for the business.
+- A limited number of high-value customers contributed significantly to overall revenue.
 
 ## Conclusion
