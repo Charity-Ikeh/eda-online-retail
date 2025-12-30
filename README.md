@@ -11,7 +11,8 @@ The dataset contains transactional data from an online retail business. Each row
 The data captures customer purchasing behaviour over time and allows for analysis of sales trends, customer value, and product performance.
 
 ## Tools Used
-
+- Microsoft Excel
+- GitHub
 ## Data Cleaning Steps
 
 ## Exploratory Data Analysis
