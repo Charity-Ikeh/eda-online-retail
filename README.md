@@ -41,5 +41,32 @@ This exploratory data analysis provided valuable insights into sales performance
 
 The findings demonstrate how structured data analysis can support informed business decisions in areas such as inventory planning, customer retention, and sales strategy.
 
+
+## Funnel Analysis (Excel)
+
+### Objective
+To analyse customer purchasing behaviour and identify drop-offs or retention gaps in the sales funnel.
+
+### Funnel Stages Analysed
+- Customers
+- Orders
+- Revenue
+
+### Key Findings
+- 100% conversion from customers to orders, indicating no checkout drop-off.
+- No repeat purchases observed; each customer placed only one order.
+- Revenue per customer equals revenue per order, highlighting a retention gap.
+
+### Business Insight
+Revenue is driven entirely by single purchases. While customer acquisition is effective, retention is weak.
+
+### Recommendations
+- Introduce loyalty incentives to encourage repeat purchases.
+- Use remarketing emails to re-engage existing customers.
+- Offer repeat-purchase discounts to increase customer lifetime value.
+
+### Tools Used
+- Microsoft Excel (Pivot Tables, Aggregations)
+
 ## Next Steps
 Future analysis could include deeper customer segmentation, analysis of repeat purchasing behaviour, and profitability analysis by product category. The dataset could also be analysed using SQL or Python for scalability, and visual dashboards could be created using Power BI to support ongoing monitoring and reporting.
