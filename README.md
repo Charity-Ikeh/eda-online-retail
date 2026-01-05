@@ -128,7 +128,8 @@ This SQL project analyses an Online Retail dataset using **DB Browser for SQLite
 - SQL file: `sql/05_repeat_customer_rate_percentage.sql`
 - Screenshot: `image/online_retail_mysql_query_repeat_customer_rate_percentage.png`
 
-![Query 05 Output](image/online_retail_mysql_query_repeat_customer_rate_percentage.png)
+<img width="1308" height="873" alt="online_retail_mysql_query_repeat_customer-rate_percentage" src="https://github.com/user-attachments/assets/0062223d-48ac-44b8-a903-1bd8634f72e5" />
+
 
 ---
 
@@ -146,7 +147,8 @@ This SQL project analyses an Online Retail dataset using **DB Browser for SQLite
 - SQL file: `sql/07_one_time_vs_repeat_customers.sql`
 - Screenshot: `image/online_retail_mysql_query_one_time_vs_repeat_customers.png`
 
-![Query 07 Output](image/online_retail_mysql_query_one_time_vs_repeat_customers.png)
+<img width="1273" height="870" alt="online_retail_mysql_query_one-time_vs-repeat_customers" src="https://github.com/user-attachments/assets/0fcb0f94-5a15-4e39-8ae2-19cdbddef848" />
+
 
 ---
 
@@ -155,7 +157,7 @@ This SQL project analyses an Online Retail dataset using **DB Browser for SQLite
 - SQL file: `sql/08_repeat_customers_order_counts.sql`
 - Screenshot: `image/online_retail_mysql_query_repeat_customer_orders_each.png`
 
-![Query 08 Output](image/online_retail_mysql_query_repeat_customer_orders_each.png)
+<img width="1345" height="955" alt="online_retail_mysql_query_repeat_customer_orders_each png" src="https://github.com/user-attachments/assets/d26f0bb0-bfa4-45e5-a3b2-a5737e07b123" />
 
 ---
 
