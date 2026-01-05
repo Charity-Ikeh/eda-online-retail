@@ -68,5 +68,159 @@ Revenue is driven entirely by single purchases. While customer acquisition is ef
 ### Tools Used
 - Microsoft Excel (Pivot Tables, Aggregations)
 
+## SQL Project: Online Retail Funnel & Customer Analysis (SQLite)
+
+This SQL project analyses an Online Retail dataset using **DB Browser for SQLite** to answer real business questions about revenue, customer behaviour, repeat purchases, and country performance. Each query is saved as a `.sql` file in the `sql/` folder, with a matching screenshot in the `image/` folder as proof of execution.
+
+---
+
+### Tools Used
+- **SQLite** (DB Browser for SQLite)
+
+### Dataset Table
+- `Online_Retail`
+
+### Revenue Formula Used
+- `Revenue = Quantity * UnitPrice`
+
+---
+
+## Queries (13) — SQL Files + Output Screenshots
+
+### Query 01 — Total Revenue
+**Business question:** What is the total revenue generated?
+- SQL file: `sql/01_total_revenue.sql`
+- Screenshot: `image/online_retail_mysql_query_total_revenue.png`
+
+![Query 01 Output](image/online_retail_mysql_query_total_revenue.png)
+
+---
+
+### Query 02 — Total Customers
+**Business question:** How many unique customers exist?
+- SQL file: `sql/02_total_customers.sql`
+- Screenshot: `image/online_retail_mysql_query_total_customers.png`
+
+![Query 02 Output](image/online_retail_mysql_query_total_customers.png)
+
+---
+
+### Query 03 — Total Orders
+**Business question:** How many unique orders were placed?
+- SQL file: `sql/03_total_orders.sql`
+- Screenshot: `image/online_retail_mysql_query_total_orders.png`
+
+![Query 03 Output](image/online_retail_mysql_query_total_orders.png)
+
+---
+
+### Query 04 — Repeat Customers
+**Business question:** Which customers made more than one purchase?
+- SQL file: `sql/04_repeat_customers.sql`
+- Screenshot: `image/online_retail_mysql_query_repeat_customers.png`
+
+![Query 04 Output](image/online_retail_mysql_query_repeat_customers.png)
+
+---
+
+### Query 05 — Repeat Customer Rate (%)
+**Business question:** What percentage of customers are repeat buyers?
+- SQL file: `sql/05_repeat_customer_rate_percentage.sql`
+- Screenshot: `image/online_retail_mysql_query_repeat_customer_rate_percentage.png`
+
+![Query 05 Output](image/online_retail_mysql_query_repeat_customer_rate_percentage.png)
+
+---
+
+### Query 06 — Revenue from Repeat Customers
+**Business question:** How much revenue comes from repeat customers only?
+- SQL file: `sql/06_repeat_customers_revenue.sql`
+- Screenshot: `image/online_retail_mysql_query_repeat_customers_revenue.png`
+
+![Query 06 Output](image/online_retail_mysql_query_repeat_customers_revenue.png)
+
+---
+
+### Query 07 — One-time vs Repeat Customers
+**Business question:** How many customers are one-time buyers vs repeat buyers?
+- SQL file: `sql/07_one_time_vs_repeat_customers.sql`
+- Screenshot: `image/online_retail_mysql_query_one_time_vs_repeat_customers.png`
+
+![Query 07 Output](image/online_retail_mysql_query_one_time_vs_repeat_customers.png)
+
+---
+
+### Query 08 — Repeat Customer Order Counts
+**Business question:** How many orders did each repeat customer place?
+- SQL file: `sql/08_repeat_customers_order_counts.sql`
+- Screenshot: `image/online_retail_mysql_query_repeat_customer_orders_each.png`
+
+![Query 08 Output](image/online_retail_mysql_query_repeat_customer_orders_each.png)
+
+---
+
+### Query 09 — Top Customers by Revenue (Top 10)
+**Business question:** Which customers generate the most revenue?
+- SQL file: `sql/09_top_customers_by_revenue.sql`
+- Screenshot: `image/online_retail_mysql_query_top_customers_analysis.png`
+
+![Query 09 Output](image/online_retail_mysql_query_top_customers_analysis.png)
+
+---
+
+### Query 10 — Revenue by Country (Full Ranking)
+**Business question:** Which countries generate the most revenue overall?
+- SQL file: `sql/10_revenue_by_country.sql`
+- Screenshot: `image/online_retail_mysql_query_top_revenue_country.png`
+
+![Query 10 Output](image/online_retail_mysql_query_top_revenue_country.png)
+
+---
+
+### Query 11 — Top 5 Revenue Generating Countries
+**Business question:** What are the top 5 revenue-generating countries?
+- SQL file: `sql/11_top_5_revenue_generating_countries.sql`
+- Screenshot: `image/online_retail_mysql_query_top_5_revenue_generating_countries.png`
+
+![Query 11 Output](image/online_retail_mysql_query_top_5_revenue_generating_countries.png)
+
+---
+
+### Query 12 — Top 5 Revenue Percentage by Country
+**Business question:** What percentage of total revenue does each top country contribute?
+- SQL file: `sql/12_top_5_revenue_percentage_by_country.sql`
+- Screenshot: `image/online_retail_mysql_query_top_5_revenue_percentage_by_country.png`
+
+![Query 12 Output](image/online_retail_mysql_query_top_5_revenue_percentage_by_country.png)
+
+---
+
+### Query 13 — Funnel Baseline Analysis
+**Business question:** What is the baseline snapshot of total customers and total orders?
+- SQL file: `sql/13_funnel_baseline_analysis.sql`
+- Screenshot: `image/online_retail_mysql_query_funnel_baseline_analysis.png`
+
+![Query 13 Output](image/online_retail_mysql_query_funnel_baseline_analysis.png)
+
+---
+
+## Key Takeaways (Business Value)
+- Built a baseline view of **revenue, customers, and orders** for performance reporting.
+- Measured **repeat customer behaviour** (count + repeat rate %) to support retention decisions.
+- Quantified **repeat customer revenue contribution** to evaluate loyalty impact.
+- Identified **top customers** (high-value segment) for VIP/CRM targeting.
+- Ranked **countries by revenue** and calculated **top-country revenue share** to highlight revenue concentration.
+
+---
+
 ## Next Steps
-Future analysis could include deeper customer segmentation, analysis of repeat purchasing behaviour, and profitability analysis by product category. The dataset could also be analysed using SQL or Python for scalability, and visual dashboards could be created using Power BI to support ongoing monitoring and reporting.
+
+With exploratory data analysis and SQL-based customer and revenue analysis completed, the next steps for this project include:
+
+- Deeper customer segmentation using SQL (e.g. RFM analysis or customer lifetime value estimation).
+- Time-based analysis to understand purchasing trends by month or season.
+- Profitability analysis by product category to identify high-margin items.
+- Building interactive dashboards in Power BI to visualise revenue, customer behaviour, and repeat purchase metrics.
+- Replicating parts of the analysis using Python for scalability and automation.
+
+These extensions would allow the analysis to move from descriptive insights to more advanced, decision-support analytics.
