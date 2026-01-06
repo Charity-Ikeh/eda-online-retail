@@ -214,6 +214,12 @@ This SQL project analyses an Online Retail dataset using **DB Browser for SQLite
 - Ranked **countries by revenue** and calculated **top-country revenue share** to highlight revenue concentration.
 
 ---
+## Power BI Dashboard
+
+A Power BI funnel dashboard was created to visualise key customer and revenue metrics from this analysis.
+
+Repository:
+https://github.com/Charity-Ikeh/online-retail-funnel-analysis
 
 ## Next Steps
 
